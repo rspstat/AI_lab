@@ -4,7 +4,6 @@
 
 ### 참고자료
 
-
 ---
 [PyTorch Installation](https://pytorch.org/get-started/locally/)
 

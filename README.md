@@ -3,8 +3,6 @@
 - **Name:** Gyu-Hyeon Kim (2021041017)  
 - **Course:** 2025-2 Artificial Intelligence  
 
----
-
 ## Development Environment
 
 ### Hardware
@@ -16,18 +14,14 @@
 - **PyTorch:** 2.8.0+cu126 (CUDA-enabled)  
 - **Jupyter Notebook:** Configured and operational (via Google Colab)  
 
----
-
-## Environment Status
-✅ PyTorch successfully imported and functional  
-✅ CUDA acceleration available  
-✅ Tensor operations working correctly  
-✅ GPU-accelerated deep learning ready  
-
----
+### Environment Status
+- ✅ PyTorch successfully imported and functional  
+- ✅ CUDA acceleration available  
+- ✅ Tensor operations working correctly  
+- ✅ GPU-accelerated deep learning ready  
 
 ## Quick Environment Check
-Run the first cell in **`week2.ipynb`** to verify PyTorch installation and CUDA availability.  
+- Run the first cell in **`week2.ipynb`** to verify PyTorch installation and CUDA availability.  
 
 ```python
 import torch

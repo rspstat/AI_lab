@@ -1,4 +1,4 @@
-# AI-LAB
+# AI-lab
 
 <br/>
 

@@ -1,62 +1,36 @@
-## AI_lab
+# AI_lab
 
-Gyu-Hyeon Kim 2021041017
-
-2025-2 Artificial intelligence
-
-<br/>
-
-### Development Environment
+- **Name:** Gyu-Hyeon Kim (2021041017)  
+- **Course:** 2025-2 Artificial Intelligence  
 
 ---
 
-#### Hardware
+## Development Environment
 
-GPU: T4 GPU (Colab)
+### Hardware
+- **GPU:** NVIDIA T4 (Google Colab)  
+- **CUDA Support:** Available (1 device)  
 
-CUDA Support: Available (1 device)
-
-
-#### Software Stack
-
-Python: 3.13.7
-
-PyTorch: 2.8.0+cu126 (CUDA-enabled)
-
-Jupyter Notebook: Configured and operational
-
-#### Environment Status
-
-✅ PyTorch successfully imported and functional
-
-✅ CUDA acceleration available
-
-✅ Tensor operations working correctly
-
-✅ GPU-accelerated deep learning ready
+### Software Stack
+- **Python:** 3.13.7
+- **PyTorch:** 2.8.0+cu126 (CUDA-enabled)  
+- **Jupyter Notebook:** Configured and operational (via Google Colab)  
 
 ---
 
-<br/>
-
-#### Quick Environment Check
-
-Run the first cell in week2.ipynb to verify PyTorch installation and CUDA availability.
-
----
-
-<br/>
-
-### 참고자료
-
----
-[PyTorch Installation](https://pytorch.org/get-started/locally/)
-
-[PyTorch Deep Learning - 60min](https://tutorials.pytorch.kr/beginner/deep_learning_60min_blitz.html)
-
-[PyTorch Tutorial - Korean](https://tutorials.pytorch.kr/)
-
+## Environment Status
+✅ PyTorch successfully imported and functional  
+✅ CUDA acceleration available  
+✅ Tensor operations working correctly  
+✅ GPU-accelerated deep learning ready  
 
 ---
 
-<br/>
+## Quick Environment Check
+Run the first cell in **`week2.ipynb`** to verify PyTorch installation and CUDA availability.  
+
+```python
+import torch
+print("PyTorch version:", torch.__version__)
+print("CUDA available:", torch.cuda.is_available())
+print("Device name:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU")

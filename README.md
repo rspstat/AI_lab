@@ -21,4 +21,5 @@
 - ✅ GPU-accelerated deep learning ready  
 
 ## Quick Environment Check
-- Run the first cell in **`week2.ipynb`** to verify PyTorch installation and CUDA availability.  
+
+Run the first cell in **`week2.ipynb`** to verify PyTorch installation and CUDA availability.  
